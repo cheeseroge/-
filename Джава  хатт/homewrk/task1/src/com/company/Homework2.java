@@ -9,7 +9,7 @@ public class Homework2 {
         Scanner sc = new Scanner(System.in);
         String name = sc.next();
 
-        for (int i = 0; i < 4; i++) {
+        for (int i = 0; i < 3; i++) {
             if (name.equals(SixThreeSix[i])) {
                 status = "Есть такое";
                 break;
