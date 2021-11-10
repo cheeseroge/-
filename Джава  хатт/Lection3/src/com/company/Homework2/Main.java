@@ -9,7 +9,7 @@ public class Main {
         System.out.println("Ну давай, набери чего-нибудь интересное:");
 
         String input = scanner.nextLine();
-        StringTokenizer words = new StringTokenizer(input, " ");
+        StringTokenizer words = new StringTokenizer(input, " .,!?");
 
         String longword = "";
         int x = 0;
